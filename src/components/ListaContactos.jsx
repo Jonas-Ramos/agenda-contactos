@@ -3,11 +3,13 @@ import Contacto from './Contacto'
 
 
 const ListaContactos = ({contactos, setContacto, eliminarContacto}) => {
+
+
   return (
     <div className="md:w-1/2 lg:w-3/5 md:h-screen overflow-y-scroll">
-
-        { contactos && contactos.length ? (
-
+      
+      { contactos && contactos.length ? (
+          
             <div>
             <h2 className="font-black text-3xl text-center">Lista de Contactos</h2>
         

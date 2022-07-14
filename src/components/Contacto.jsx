@@ -49,7 +49,7 @@ function calcularEdad(fecha) {
         </p>
         <p className="font-bold mb-3 text-gray-700 uppercase">
             Edad: 
-            <span className="font-normal normal-case"> {  calcularEdad(fecha)  } </span>
+            <span className="font-normal normal-case"> {  calcularEdad(fecha) } </span>
         </p>
             <div className="flex justify-between mt-10">
             <button 

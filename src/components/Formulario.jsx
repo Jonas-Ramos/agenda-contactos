@@ -95,7 +95,7 @@ const Formulario = ({
                         id='nombre'
                         placeholder='Nombre del contacto'
                         value={nombre}
-                        onChange = {(e) => setNombre(e.target.value)}
+                        onChange = {(e) => setNombre(e.Object.values(obj))}
                         className="border-2 w-full p-2 mt-2 placeholder-orange-600 rounder-md"
                         />
                 </div>
@@ -107,7 +107,7 @@ const Formulario = ({
                         id='telefono'
                         placeholder='Teléfono de contacto'
                         value={telefono}
-                        onChange = {(e) => setTelefono(e.target.value)}
+                        onChange = {(e) => setTelefono(e.Object.values(obj))}
                         className="border-2 w-full p-2 mt-2 placeholder-orange-600 rounder-md"
                         />
                 </div>
@@ -119,7 +119,7 @@ const Formulario = ({
                         id='fecha'
                         placeholder='Fecha de Nacimiento'
                         value={fecha}
-                        onChange = {(e) => setFecha(e.target.value)}
+                        onChange = {(e) => setFecha(e.Object.values(obj))}
                         className="border-2 w-full p-2 mt-2 placeholder-orange-600 rounder-md"
                         />
                 </div>
@@ -130,7 +130,7 @@ const Formulario = ({
                         id='direccion'
                         placeholder='Dirección'
                         value={direccion}
-                        onChange = {(e) => setDireccion(e.target.value)}
+                        onChange = {(e) => setDireccion(e.Object.values(obj))}
                         className="border-2 w-full p-2 mt-2 placeholder-orange-600 rounder-md"
                         />
                 </div>
@@ -142,7 +142,7 @@ const Formulario = ({
                         id='email'
                         placeholder='Email'
                         value={email}
-                        onChange = {(e) => setEmail(e.target.value)}
+                        onChange = {(e) => setEmail(e.Object.values(obj))}
                         className="border-2 w-full p-2 mt-2 placeholder-orange-600 rounder-md"
                         />
                         

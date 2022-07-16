@@ -31,6 +31,7 @@ const Formulario = ({
     }
 
     const handleSubmit = (e) => {
+        e.preventDefault();
         //Validación del formulario
         if([nombre, telefono, fecha, direccion, email].includes('')){
             setError(true)
